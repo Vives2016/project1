@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "dependencies": {
     "express": "*",
-    "command-line-args": "*"
+    "command-line-args": "*",
+    "pg-promise": "*"
   },
   "scripts": {
     "start": "node server.js"
