@@ -2,10 +2,9 @@
     <head>
         <title>Diagnostics</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
         <script>
-            function writeGitHash(element) {
-                $.ajax({ method: "GET", url: "/git-hash" })
+            function appendDiagnostic(url, element) {
+                $.ajax({ method: "GET", url: url })
                     .fail(function(xhr, status, error) {
                         element.text(element.text() + " (" + status + ") " + error)
                     })
@@ -15,7 +14,8 @@
             }
             
             $(document).ready(function() {
-                writeGitHash($("#git-version"));
+                appendDiagnostic("/git-version", $("#git-version"));
+                appendDiagnostic("/postgres-connection", $("#postgres-connection"));
             });
         </script>
     </head>

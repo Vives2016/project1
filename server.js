@@ -11,5 +11,5 @@ if (arguments.parse()["help"]) {
 var port = arguments.parse()["port"];
 
 app.server().listen(port, function () {
-  console.log('Started on port ' + port);
+    console.log('Started on port ' + port);
 });
