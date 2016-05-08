@@ -1,10 +1,11 @@
 Coding
 ------
 Modular Node
-Read Postgres from node
+Play with pg-promise
 Node session management
 Postcode geo locator DB
 Look up GIS searches
 Read up on Google maps API
 List of schools in UK
 Read up on socket.io
+Choose DI container
