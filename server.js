@@ -1,5 +1,5 @@
 var commandLineArgs = require('command-line-args');
-var childProcess = require('child_process');
+var git = require('./lib/git');
 var express = require('express');
 
 var arguments = commandLineArgs([
@@ -13,7 +13,7 @@ var port = arguments.parse()["port"];
 var server = express();
 
 server.get('/git-hash', function(req, res) {
-    res.send(childProcess.execSync('git log -n 1 --format="%H"').toString());
+    res.send(git.currentHash());
 });
 
 server.use('/', express.static(__dirname + '/public'));
