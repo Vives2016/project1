@@ -1,6 +1,22 @@
 <html>
-    <head><title>Diagnostics</title></head>
+    <head>
+        <title>Diagnostics</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $.ajax({ method: "GET", url: "/git-hash" })
+                    .fail(function(xhr, status, error) {
+                        $("#git").text($("#git").text() + " (" + status + ") " + error)
+                    })
+                    .done(function(data) {
+                        $("#git").text($("#git").text() + data);
+                    });
+            });
+        </script>
+    </head>
     <body>
-        Diagnostics
+        <h1>Diagnostics</h1>
+        <div id="git">Git version: </div>
     </body>
 </html>
