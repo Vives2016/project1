@@ -1,6 +1,5 @@
 var commandLineArgs = require('command-line-args');
-var git = require('./lib/git');
-var express = require('express');
+var app = require('./lib/app');
 
 var arguments = commandLineArgs([
                     { name: "help", type: Boolean, alias: "h" },
@@ -10,14 +9,7 @@ if (arguments.parse()["help"]) {
     process.exit();
 }
 var port = arguments.parse()["port"];
-var server = express();
 
-server.get('/git-hash', function(req, res) {
-    res.send(git.currentHash());
-});
-
-server.use('/', express.static(__dirname + '/public'));
-
-server.listen(port, function () {
+app.server().listen(port, function () {
   console.log('Started on port ' + port);
 });
