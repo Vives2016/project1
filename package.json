@@ -1,0 +1,23 @@
+{
+  "name": "parent-share",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "1.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "Pet project",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vives2016/project1.git"
+  },
+  "author": "Marcus",
+  "license": "Copyright",
+  "bugs": {
+    "url": "https://github.com/Vives2016/project1/issues"
+  },
+  "homepage": "https://github.com/Vives2016/project1#readme"
+}
