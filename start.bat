@@ -1,2 +1,2 @@
 git pull
-node ./server.js
+node ./server.js --port 80

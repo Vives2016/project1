@@ -8,7 +8,7 @@ if (arguments.parse()["help"]) {
     console.log(arguments.getUsage());
     process.exit();
 }
-var port = arguments.parse()["port"]
+var port = arguments.parse()["port"];
 var server = express();
 server.use('/', express.static(__dirname + '/public'));
 
