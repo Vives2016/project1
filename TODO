@@ -1,10 +1,12 @@
 Coding
 ------
+SPDX license expression?
 Install Postgres
 Read Postgres from node
 Read up on grunt.js
-Geo locator DB
+Postcode geo locator DB
 Look up GIS searches
 Read up on Google maps API
 List of schools in UK
-Read up on socket.js
+Read up on socket.io
+Node session management

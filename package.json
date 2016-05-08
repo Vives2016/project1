@@ -2,7 +2,8 @@
   "name": "parent-share",
   "version": "0.1.0",
   "dependencies": {
-    "express": "*"
+    "express": "*",
+    "command-line-args": "*"
   },
   "scripts": {
     "start": "node server.js"
