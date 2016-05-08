@@ -1,7 +1,5 @@
 Coding
 ------
-Play with pg-promise
-Postgres connection status route
 Node session management
 Manage sessions in postgres
 Manage postgres with grunt
