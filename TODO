@@ -3,9 +3,17 @@ Coding
 Play with pg-promise
 Postgres connection status route
 Node session management
-Postcode geo locator DB
-Look up GIS searches
+Manage sessions in postgres
+Manage postgres with grunt
+Read up on GIS searches
 Read up on Google maps API
-List of schools in UK
+JS unit tester
+Collect registrations in postgres
+Node acceptance tester
 Read up on socket.io
 Choose DI container
+
+Sourcing
+--------
+Postcode geo locator DB
+List of schools in UK
