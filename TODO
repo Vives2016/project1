@@ -1,9 +1,11 @@
 Coding
 ------
-Static pages from Node.js?
+Serve pages using express.js
 Install Postgres
 Read Postgres from node
+Read up on grunt.js
 Geo locator DB
 Look up GIS searches
 Read up on Google maps API
 List of schools in UK
+Read up on socket.js
