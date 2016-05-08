@@ -1,10 +1,7 @@
 Coding
 ------
-Get current git hash : git log -n 1 --format="%H"
-Shell command from node
 Add git hash as express route
 Add git hash to diagnostics using JQuery
-Install Postgres
 Read Postgres from node
 Node session management
 Postcode geo locator DB
