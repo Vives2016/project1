@@ -16,9 +16,6 @@
     "url": "git+https://github.com/Vives2016/project1.git"
   },
   "author": "Marcus",
-  "license": "Copyright",
-  "bugs": {
-    "url": "https://github.com/Vives2016/project1/issues"
-  },
+  "license": "UNLICENSED",
   "homepage": "https://github.com/Vives2016/project1#readme"
 }
