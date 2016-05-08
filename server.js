@@ -1,10 +1,8 @@
 var express = require('express');
-var app = express();
+var server = express();
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+server.use('/', express.static(__dirname + '/public'));
 
-app.listen(80, function () {
-  console.log('Example app listening on port 3000!');
+server.listen(80, function () {
+  console.log('Started on port 80');
 });

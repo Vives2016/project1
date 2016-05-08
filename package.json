@@ -2,7 +2,7 @@
   "name": "parent-share",
   "version": "0.1.0",
   "dependencies": {
-    "express": "1.0.0"
+    "express": "*"
   },
   "scripts": {
     "start": "node server.js"
