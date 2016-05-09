@@ -1,15 +1,19 @@
 <html>
-    <head><title>Childcare Sharing</title></head>
+    <head>
+        <title>Childcare Sharing</title>
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+    </head>
     <body>
         <h1>Childcare Sharing</h1>
         <h2>&quot;It takes a village to raise a child.&quot;</h2>
-        <form action="search.html">
-            <label>Name: <input type="text" name="name"/></label><br/>
-            <label>Postcode: <input type="text" name="postcode"/></label>
-            <label>Door number: <input type="text" name="door_number"/></label>
-            <br/>
-            <label>School: <input type="text" name="school"/></label><br/>
-            <input type="submit"/>
-        </form>
+        <div class="registration">
+            <form action="search.html">
+                <label>We need a postcode to start the search: <input type="text" name="postcode"/></label><br/>
+                <label>Your door number would make our searches more accurate: <input type="text" name="door_number"/></label><br/>
+                <label>Schools you can drop and collect from: <input type="text" name="school"/></label><br/>
+                <input type="submit" value="Search"/>
+            </form>
+        </div>
     </body>
 </html>

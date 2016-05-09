@@ -1,5 +1,6 @@
 Coding
 ------
+Node basics
 Node session management
 Manage sessions in postgres
 Manage postgres with grunt
@@ -13,5 +14,5 @@ Choose DI container
 
 Sourcing
 --------
-Postcode geo locator DB
+Postcode geo DB
 List of schools in UK
