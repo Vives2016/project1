@@ -16,14 +16,18 @@ function task3(n, callback) {
     console.log("Leaving 3");
 }
 
-function next(n, tasks, callback) {
-    var task = tasks.shift();
-    if (task) {
-        task(n, function(i) {
-            callback(i);
-            next(i, tasks, callback);
+function pmap(n, tasks, callback) {
+    var results = [];
+    var total = 0;
+    tasks.forEach(function(task, i, tasks) {
+        task(n, function(result) {
+            results[i] = result;
+            total += 1;
+            if (total == tasks.length) {
+                callback(results);
+            }
         });
-    }
+    });
 }
 
-next(0, [task1, task2, task3], console.log);
+pmap(0, [task1, task2, task3], console.log);
