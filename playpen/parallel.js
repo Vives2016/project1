@@ -1,18 +1,27 @@
 function task1(n, callback) {
     console.log("Entering 1");
-    callback(n + 1);
+    setTimeout(function() {
+        callback(n + 1);
+        console.log("Completing 1")
+    }, 200);
     console.log("Leaving 1");
 }
 
 function task2(n, callback) {
     console.log("Entering 2");
-    callback(n + 2);
+    setTimeout(function() {
+        callback(n + 2);
+        console.log("Completing 2")
+    }, 300);
     console.log("Leaving 2");
 }
 
 function task3(n, callback) {
     console.log("Entering 3");
-    callback(n + 3);
+    setTimeout(function() {
+        callback(n + 3);
+        console.log("Completing 3")
+    }, 100);
     console.log("Leaving 3");
 }
 
