@@ -22,9 +22,10 @@ function next(n) {
     var task = taskList.shift();
     if (task) {
         task(n, function(i) {
+            console.log(i)
             next(i);
         });
     }
 }
 
-next();
+next(0);
