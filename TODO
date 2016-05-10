@@ -1,6 +1,5 @@
 Coding
 ------
-Node flow control
 Express basics
 Node session management
 Manage sessions in postgres
@@ -8,6 +7,7 @@ Manage postgres with grunt
 Read up on GIS searches
 Read up on Google maps API
 JS unit tester
+Understand event emitter interface
 Collect registrations in postgres
 Node acceptance tester
 Read up on socket.io
