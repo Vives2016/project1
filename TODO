@@ -1,6 +1,7 @@
 Coding
 ------
-Node basics
+Node flow control
+Express basics
 Node session management
 Manage sessions in postgres
 Manage postgres with grunt
