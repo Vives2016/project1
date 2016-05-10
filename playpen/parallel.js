@@ -25,7 +25,7 @@ function task3(n, callback) {
     console.log("Leaving 3");
 }
 
-function pmap(n, tasks, callback) {
+function parallel(n, tasks, callback) {
     var results = [];
     var total = 0;
     tasks.forEach(function(task, i, tasks) {
@@ -39,4 +39,4 @@ function pmap(n, tasks, callback) {
     });
 }
 
-pmap(0, [task1, task2, task3], console.log);
+parallel(0, [task1, task2, task3], console.log);
