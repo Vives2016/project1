@@ -1,7 +1,5 @@
 Coding
 ------
-Express routing
-Express templating
 Expres session middleware
 Manage sessions in postgres
 Manage postgres with grunt

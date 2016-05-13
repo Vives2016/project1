@@ -4,6 +4,7 @@
   "dependencies": {
     "express": "*",
     "mustache-express": "*",
+    "express-session": "*",
     "command-line-args": "*",
     "pg-promise": "*"
   },
