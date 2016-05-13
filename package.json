@@ -9,11 +9,15 @@
     "pg-promise": "*"
   },
   "scripts": {
+    "test": "mocha",
     "start": "node server.js"
   },
   "description": "Pet project",
   "main": "server.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Vives2016/project1.git"
