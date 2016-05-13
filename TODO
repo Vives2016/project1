@@ -1,7 +1,8 @@
 Coding
 ------
-Express basics
-Node session management
+Express routing
+Express templating
+Expres session middleware
 Manage sessions in postgres
 Manage postgres with grunt
 Read up on GIS searches
