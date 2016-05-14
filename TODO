@@ -9,9 +9,10 @@ Manage postgres with grunt
 Read up on GIS searches
 Read up on Google maps API
 Collect registrations in postgres
+Convert post code to geo
 Node acceptance tester
 Read up on socket.io
-Choose DI container
+Choose DI container (electrolye.js?)
 
 Sourcing
 --------
