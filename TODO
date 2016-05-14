@@ -1,8 +1,10 @@
 Coding
 ------
-Stored proc Postgres interface
+Add test for postgres diagnostic
+Try out bookshelf.js
 Understand event emitter interface
 Session store in postgres
+Try out db-migrate.js
 Manage postgres with grunt
 Read up on GIS searches
 Read up on Google maps API
