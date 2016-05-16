@@ -1,18 +1,19 @@
 Coding
 ------
-Express basics
-Node session management
-Manage sessions in postgres
+Add test for postgres diagnostic
+Try out bookshelf.js
+Understand event emitter interface
+Session store in postgres
+Try out db-migrate.js
 Manage postgres with grunt
 Read up on GIS searches
 Read up on Google maps API
-JS unit tester
-Understand event emitter interface
 Read up on reactive programming
 Collect registrations in postgres
+Convert post code to geo
 Node acceptance tester
 Read up on socket.io
-Choose DI container
+Choose DI container (electrolye.js?)
 
 Sourcing
 --------
