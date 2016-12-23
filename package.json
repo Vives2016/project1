@@ -12,7 +12,7 @@
     "test": "mocha",
     "start": "node server.js"
   },
-  "description": "Pet project",
+  "description": "Childcare project",
   "main": "server.js",
   "devDependencies": {
     "mocha": "*",
